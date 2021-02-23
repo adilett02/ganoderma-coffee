@@ -1,0 +1,28 @@
+//form
+.form {
+  background-color: #f5f8f2;
+  padding: 100px 0;
+  .about-heading{
+    font-family: $font2;
+    font-weight: bold;
+  }
+}
+.form-control {
+  height: auto;
+  padding: 20px 30px;
+  border-radius: 50px;
+  font-family: $font2;
+  &:focus {
+    border-color: $primaryColor;
+    box-shadow: 0px 0px 4px 0px $primaryColor;
+  }
+}
+.form-group label{
+  font-family: $font2;
+  font-weight: bold;
+}
+.last-text {
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 50px;
+}
