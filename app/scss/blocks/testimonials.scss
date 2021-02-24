@@ -12,6 +12,7 @@
     }
     .hidden-text{
       color: $white;
+      opacity: 0.09;
     }
     &::before{
       content: "";
