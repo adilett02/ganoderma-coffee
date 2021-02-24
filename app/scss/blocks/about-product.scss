@@ -1,9 +1,14 @@
 //about-product
 .about-product {
   background-color: #f5f8f2;
+  
   img {
     width: 100%;
   }
+}
+.second-block{
+  background-image: url(../images/main-bg.jpg);
+  background-size: cover;
 }
 .more__link {
   color: $primaryColor;
@@ -128,9 +133,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url(../images/video-leafs.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-color: #000;
+    opacity: 0.3;
   }
   .videoWrapper {
     position: relative;
@@ -149,11 +153,11 @@
   }
   .video-heading {
     font-size: 60px;
-    color: $white;
+    color: $secondaryColor;
     text-align: center;
     margin-bottom: 40px;
     span {
-      color: $primaryColor;
+      color: $white;
     }
   }
 }
