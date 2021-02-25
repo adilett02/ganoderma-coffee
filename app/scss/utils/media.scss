@@ -14,6 +14,12 @@
     .buy-section {
         padding: 30px 0;
     }
+    .buy-section2{
+        padding: 170px 0 60px;
+    }
+    .padding-container{
+        padding: 100px 15px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -36,7 +42,7 @@
         padding: 30px 20px;
     }
     .problem__decision-section {
-        background: linear-gradient(to bottom, $secondaryColor 50%, $primaryColor 50%);
+        background: linear-gradient(to bottom, $primaryColor 50%, $secondaryColor 50%);
     }
 }
 
@@ -138,7 +144,7 @@
     }
     .useful__list .useful__item::before {
         left: 11px;
-        border-color: transparent #88b44e transparent transparent;
+        border-color: transparent $primaryColor transparent transparent;
     }
     .useful__list::before {
         left: 0;
