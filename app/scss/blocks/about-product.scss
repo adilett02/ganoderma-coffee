@@ -1,12 +1,12 @@
 //about-product
 .about-product {
   background-color: #f5f8f2;
-  
+
   img {
     width: 100%;
   }
 }
-.second-block{
+.second-block {
   background-image: url(../images/main-bg.jpg);
   background-size: cover;
 }
@@ -34,13 +34,15 @@
   background-position: center;
   padding-top: 120px;
 }
-.sixth-block{
+.sixth-block {
   background-image: url(../images/arabica-bg.jpg);
   background-size: cover;
+  background-position: center;
+  padding-top: 70vh;
 }
-.arabica-container{
+.arabica-container {
   position: relative;
-  &::before{
+  &::before {
     content: "";
     position: absolute;
     top: 0;
@@ -50,15 +52,12 @@
     background-color: #000;
     opacity: 0.7;
   }
-  p{
+  p {
     color: $white;
     position: relative;
   }
 }
-.padding-container{
-  padding: 100px;
-}
-.seventh-block{
+.seventh-block {
   background-image: url(../images/main-bg.jpg);
   background-size: cover;
   padding: 60px 0;
@@ -135,9 +134,9 @@
   margin: 40px auto auto 20px;
   font-family: $font2;
   background-color: $primaryColor;
-  .arrow{
+  .arrow {
     background-color: $secondaryColor;
-    svg{
+    svg {
       fill: $white;
     }
   }
@@ -225,4 +224,7 @@
 .buy-section2 .about-heading {
   font-family: $font2;
   font-weight: bold;
+  span {
+    text-shadow: #eac6b3 1px -1px 0, #eac6b3 2px -2px 0, #eac6b3 3px -3px 0, #eac6b3 4px -4px 0, #eac6b3 5px -5px 0;
+  }
 }
