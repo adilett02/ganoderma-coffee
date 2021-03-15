@@ -35,6 +35,11 @@
     .desktop-img {
         display: none;
     }
+    .sixth-block{
+        &::before{
+            opacity: 0.5;
+        }
+    }
     .slider__item {
         padding: 30px 20px;
     }
@@ -97,6 +102,9 @@
     }
     h4.about-heading {
         font-size: 28px;
+    }
+    .sixth-block{
+        padding: 100px 0;
     }
     .video-section {
         padding: 30px 0;
