@@ -103,6 +103,7 @@
 
     //Слайдер для отзывов
     var mySwiper = new Swiper('.swiper-container', {
+        autoHeight: true,
         loop: true,
         spaceBetween: 70,
         grabCursor: true,
