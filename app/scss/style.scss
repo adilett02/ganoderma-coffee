@@ -37,16 +37,20 @@ button {
   border: none !important;
   outline: none !important;
 }
-.order {
+.order-btn {
+  display: inline-flex;
+  align-items: center;
   font-family: $font2;
   padding: 15px 30px;
   background-color: $secondaryColor;
   color: $white;
   border-radius: 50px;
-  font-weight: 700;
+  text-decoration: none;
+  transition: 0.3s;
   &:hover {
     background-color: $white;
     color: $secondaryColor;
+    text-decoration: none;
   }
 }
 
@@ -88,30 +92,6 @@ button {
   left: 0;
   right: 0;
   bottom: 0;
-}
-.more-btn {
-  display: flex;
-  align-items: center;
-  padding: 15px 35px;
-  border-radius: 50px;
-  background: $secondaryColor;
-  color: $white;
-  font-size: 14px;
-  margin: 0 auto;
-  margin-bottom: 50px;
-  transition: all 0.3s ease;
-  outline: none;
-  &:hover {
-    background: $primaryColor;
-    transition: all 0.3s ease;
-    .arrow {
-      background: $secondaryColor;
-      transition: all 0.3s ease;
-      svg {
-        fill: $primaryColor;
-      }
-    }
-  }
 }
 .arrow {
   width: 15px;

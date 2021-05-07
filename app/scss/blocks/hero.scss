@@ -7,6 +7,9 @@
   background-position: center;
   background-size: cover;
   height: calc(var(--vh, 1vh) * 100);
+  .order-btn {
+    font-weight: bold;
+  }
 }
 .header-slider {
   position: absolute;

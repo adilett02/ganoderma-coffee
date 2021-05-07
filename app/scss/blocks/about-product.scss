@@ -33,6 +33,20 @@
   background-color: $secondaryColor;
   background-position: center;
   padding-top: 120px;
+  .order-btn {
+    margin: 40px auto auto 20px;
+    background-color: $primaryColor;
+    .arrow {
+      background-color: $secondaryColor;
+      svg {
+        fill: $white;
+      }
+    }
+    &:hover {
+      background-color: $white;
+      color: $secondaryColor;
+    }
+  }
 }
 .sixth-block {
   position: relative;
@@ -131,29 +145,6 @@
   font-style: italic;
   color: $white;
 }
-.more-btn2 {
-  margin: 40px auto auto 20px;
-  font-family: $font2;
-  background-color: $primaryColor;
-  .arrow {
-    background-color: $secondaryColor;
-    svg {
-      fill: $white;
-    }
-  }
-  &:hover {
-    background-color: $white;
-    color: $secondaryColor;
-    // font-weight: bold;
-    transition: all 0.3s ease;
-    .arrow {
-      background: $secondaryColor;
-      svg {
-        fill: $white;
-      }
-    }
-  }
-}
 
 .video-section {
   position: relative;
@@ -200,10 +191,8 @@
 .buy-section2 {
   background-color: $white;
   padding: 170px 0 120px;
-  .more-btn2 {
+  .order-btn {
     margin: 30px auto;
-  }
-  .buy-btn {
     background-color: $secondaryColor;
     &:hover {
       background-color: $primaryColor;
@@ -212,12 +201,14 @@
   }
   .questions-btn {
     display: inline-flex;
+
+    background-color: $primaryColor;
     &:hover {
       background-color: $secondaryColor;
       color: $white;
       font-weight: normal;
       .arrow {
-        background-color: $white;
+        background-color: $secondaryColor;
       }
     }
   }
